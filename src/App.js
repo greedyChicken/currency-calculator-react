@@ -1,5 +1,6 @@
-import Form from "./Form";
 import Header from "./Header";
+import Form from "./Form";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -38,9 +39,10 @@ function App() {
         </p>
       </form> */}
       <Form />
-      <p class="footer">
-        Result: <strong class="js-result"></strong>
-      </p>
+      {/* <p class="footer"> */}
+      {/* Result: <strong class="js-result"></strong> */}
+      {/* </p> */}
+      <Footer />
     </main>
   );
 }
