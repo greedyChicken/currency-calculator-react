@@ -2,14 +2,14 @@ import { useState } from "react";
 import "./style.css";
 
 const Form = () => {
-  const [amountToConvert, setAmountToConvert] = useState(0);
+  const [amountToConvert, setAmountToConvert] = useState("");
 
   return (
-    <form class="form">
+    <form className="form">
       <p>
         <label for="amount">
           <input
-            class="form__input"
+            className="form__input"
             type="number"
             name="amount"
             min="0"
@@ -21,7 +21,7 @@ const Form = () => {
         </label>
       </p>
       <p>
-        <label class="selectCurrency" for="fromCurrency">
+        <label className="selectCurrency" for="fromCurrency">
           From:
           <select type="number" name="fromCurrency">
             <option value="pln">PLN</option>
@@ -29,7 +29,7 @@ const Form = () => {
             <option value="usd">USD</option>
           </select>
         </label>
-        <label class="selectCurrency" for="toCurrency">
+        <label className="selectCurrency" for="toCurrency">
           To:
           <select type="number" name="toCurrency">
             <option value="eur">EUR</option>

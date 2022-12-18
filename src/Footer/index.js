@@ -1,9 +1,9 @@
 import "./style.css";
 
-const Footer = ({ result }) => {
+const Footer = () => {
   return (
-    <p class="footer">
-      Result: <strong>{result}</strong>
+    <p className="footer">
+      Result: <strong>0.00</strong>
     </p>
   );
 };
