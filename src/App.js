@@ -1,24 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import Form from "./Form";
+import Header from "./Header";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <main class="container">
+      <Header title="Currency calculator" />
+      {/* <form action="" class="form">
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <label for="amount">
+            <input
+              class="form__input js-amount"
+              type="number"
+              name="amount"
+              min="0"
+              step="0.01"
+              placeholder="Currency amount"
+            />
+          </label>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <p>
+          <label class="selectCurrency" for="fromCurrency">
+            From:
+            <select class="js-fromCurrency" type="number" name="fromCurrency">
+              <option value="pln">PLN</option>
+              <option value="eur">EUR</option>
+              <option value="usd">USD</option>
+            </select>
+          </label>
+          <label class="selectCurrency" for="toCurrency">
+            To:
+            <select class="js-toCurrency" type="number" name="toCurrency">
+              <option value="eur">EUR</option>
+              <option value="usd">USD</option>
+              <option value="pln">PLN</option>
+            </select>
+          </label>
+        </p>
+      </form> */}
+      <Form />
+      <p class="footer">
+        Result: <strong class="js-result"></strong>
+      </p>
+    </main>
   );
 }
 
