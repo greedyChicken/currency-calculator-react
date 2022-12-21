@@ -4,7 +4,7 @@ import "../data";
 const Result = ({ amountToConvert, fromCurrency, toCurrency }) => {
   return (
     <p className="footer">
-      Result:
+      Result:{" "}
       <strong>
         {(amountToConvert >= 0
           ? amountToConvert * rates[fromCurrency][toCurrency]

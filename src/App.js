@@ -6,13 +6,11 @@ import "./index.css";
 
 function App() {
   return (
-    <>
-      <Container>
-        <Header title="Currency calculator" />
-        <Form />
-        <Clock />
-      </Container>
-    </>
+    <Container>
+      <Header title="Currency calculator" />
+      <Form />
+      <Clock />
+    </Container>
   );
 }
 
