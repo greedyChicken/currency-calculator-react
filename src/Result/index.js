@@ -1,9 +1,10 @@
 import { rates } from "../data";
 import "../data";
+import { StyledResult } from "./styled";
 
 const Result = ({ amountToConvert, fromCurrency, toCurrency }) => {
   return (
-    <p className="footer">
+    <StyledResult>
       Result:{" "}
       <strong>
         {(amountToConvert >= 0
@@ -11,7 +12,7 @@ const Result = ({ amountToConvert, fromCurrency, toCurrency }) => {
           : 0
         ).toFixed(2)}
       </strong>
-    </p>
+    </StyledResult>
   );
 };
 
