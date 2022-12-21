@@ -1,5 +1,4 @@
-import { rates } from "../data";
-import "../data";
+import { rates } from "../../data";
 import { StyledResult } from "./styled";
 
 const Result = ({ amountToConvert, fromCurrency, toCurrency }) => {
