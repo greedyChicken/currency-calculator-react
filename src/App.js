@@ -1,8 +1,7 @@
-import Container from "./Container";
+import { Container } from "./Container/styled";
 import Header from "./Header";
 import Form from "./Form";
 import Clock from "./Clock";
-import "./index.css";
 
 function App() {
   return (
