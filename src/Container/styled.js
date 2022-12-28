@@ -20,4 +20,5 @@ export const Main = styled.main`
   background-color: rgb(247, 118, 143);
   border-radius: 20px;
   font-size: 20px;
+  position: relative;
 `;
