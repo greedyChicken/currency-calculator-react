@@ -7,9 +7,9 @@ import "./index.css";
 function App() {
   return (
     <Container>
+      <Clock />
       <Header title="Currency calculator" />
       <Form />
-      <Clock />
     </Container>
   );
 }
